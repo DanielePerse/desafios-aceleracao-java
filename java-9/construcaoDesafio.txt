@@ -1,0 +1,20 @@
+## teoria springBoot:
+https://www.devmedia.com.br/primeiros-passos-com-o-spring-boot/33654#Boot
+** https://blog.algaworks.com/spring-boot/ -> bem interessante para codar esse desafio, mostra um exemplo no passo a passo na parte "Aplicação para listagem de contatos".
+
+
+- dependências do meu arquivo pom.xml: 
+  - data-jpa
+  - javax
+  - reflections
+  - h2 (como BD)
+  - lombok?
+  - test (p/ rodar os testes)
+  ** - não possui hibernate (isso é necessário?)
+
+- meu arquivo application.properties parece incompleto (mas vou mantê-lo assim);
+
+## Jpa
+https://www.devmedia.com.br/integracao-do-jpa-com-spring-framework/34221 -> Focar em "Implementação das classes do projeto"
+
+** estrutura do meu desafo teria um model model (conexão com o BD), controller (persistir, atualizar, remover e buscar) e service, mas o desafio pede para armazeznar tudo em Entity. Então vou manter assim.
