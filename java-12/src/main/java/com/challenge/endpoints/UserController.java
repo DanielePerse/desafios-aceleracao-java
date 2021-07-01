@@ -3,6 +3,8 @@ package com.challenge.endpoints;
 import com.challenge.entity.User;
 import com.challenge.service.impl.UserService;
 import lombok.AllArgsConstructor;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -15,7 +17,8 @@ import java.util.Optional;
 @RestController
 @AllArgsConstructor
 public class UserController {
-
+	
+	@Autowired
     private UserService service;
 
     @GetMapping("/user/{id}")

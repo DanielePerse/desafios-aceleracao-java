@@ -1,0 +1,303 @@
+Versão: 1.0.14
+
+Usando arquivo de configuração: /home/danieleperse/.codenation.yml
+
+Executando testes...
+
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------< com.challenge:spring-http >----------------------
+[INFO] Building spring-oauth2 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ spring-http ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:compile (default-compile) @ spring-http ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ spring-http ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5.1:testCompile (default-testCompile) @ spring-http ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 3 source files to /home/danieleperse/codenation/java-12/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ spring-http ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.challenge.suite.ChallengeTestSuite
+18:48:12.669 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.challenge.suite.Oauth2Test]
+18:48:12.684 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+18:48:12.697 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+18:48:12.725 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.challenge.suite.Oauth2Test] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+18:48:12.738 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.challenge.suite.Oauth2Test], using SpringBootContextLoader
+18:48:12.743 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.challenge.suite.Oauth2Test]: class path resource [com/challenge/suite/Oauth2Test-context.xml] does not exist
+18:48:12.747 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.challenge.suite.Oauth2Test]: class path resource [com/challenge/suite/Oauth2TestContext.groovy] does not exist
+18:48:12.750 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.challenge.suite.Oauth2Test]: no resource found for suffixes {-context.xml, Context.groovy}.
+18:48:12.840 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.challenge.suite.Oauth2Test]
+18:48:13.037 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.challenge.suite.Oauth2Test]: using defaults.
+18:48:13.038 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener]
+18:48:13.099 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@295cf707, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1130520d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5f77d0f9, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@463fd068, org.springframework.test.context.support.DirtiesContextTestExecutionListener@895e367, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1b266842, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7a3793c7, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@42b3b079, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@651aed93, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4dd6fd0a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@bb9e6dc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5456afaa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6692b6c6, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1cd629b3]
+18:48:13.114 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+18:48:13.121 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+18:48:13.129 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+18:48:13.130 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+18:48:13.131 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+18:48:13.132 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+18:48:13.132 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+18:48:13.132 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+18:48:13.138 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4a3631f8 testClass = Oauth2Test, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6b58b9e9 testClass = Oauth2Test, locations = '{}', classes = '{class com.challenge.SpringOauth2Application, class com.challenge.SpringOauth2Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19d481b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4d910fd6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@11bd0f3b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@a2431d0, org.springframework.test.context.web.socket.MockServerContainerContextCustomizer@306f16f3], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+18:48:13.139 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.challenge.suite.Oauth2Test]
+18:48:13.139 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.challenge.suite.Oauth2Test]
+18:48:13.208 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.6.RELEASE)
+
+2021-06-30 18:48:14.122  INFO 80800 --- [           main] com.challenge.suite.Oauth2Test           : Starting Oauth2Test on danieleperse-dell-n4050 with PID 80800 (started by danieleperse in /home/danieleperse/codenation/java-12)
+2021-06-30 18:48:14.129  INFO 80800 --- [           main] com.challenge.suite.Oauth2Test           : No active profile set, falling back to default profiles: default
+2021-06-30 18:48:17.006  INFO 80800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-06-30 18:48:17.158  INFO 80800 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138ms. Found 6 repository interfaces.
+2021-06-30 18:48:18.331  INFO 80800 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$10be45d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-30 18:48:18.922  INFO 80800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-30 18:48:19.226  INFO 80800 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-30 18:48:19.412  INFO 80800 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-06-30 18:48:19.542  INFO 80800 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-06-30 18:48:19.547  INFO 80800 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-06-30 18:48:19.843  INFO 80800 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-06-30 18:48:20.086  INFO 80800 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-06-30 18:48:20.561  WARN 80800 --- [           main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.challenge.entity.CandidateId
+2021-06-30 18:48:20.563  WARN 80800 --- [           main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.challenge.entity.CandidateId
+2021-06-30 18:48:20.564  WARN 80800 --- [           main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): com.challenge.entity.SubmissionId
+2021-06-30 18:48:20.565  WARN 80800 --- [           main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): com.challenge.entity.SubmissionId
+Hibernate: drop table acceleration if exists
+Hibernate: drop table candidate if exists
+Hibernate: drop table challenge if exists
+Hibernate: drop table company if exists
+Hibernate: drop table submission if exists
+Hibernate: drop table users if exists
+Hibernate: create table acceleration (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, challenge_id bigint, primary key (id))
+Hibernate: create table candidate (created_at timestamp, status integer not null, user_id bigint not null, company_id bigint not null, acceleration_id bigint not null, primary key (acceleration_id, company_id, user_id))
+Hibernate: create table challenge (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, primary key (id))
+Hibernate: create table company (id bigint generated by default as identity, created_at timestamp, name varchar(100) not null, slug varchar(50) not null, primary key (id))
+Hibernate: create table submission (created_at timestamp, score float not null, user_id bigint not null, challenge_id bigint not null, primary key (challenge_id, user_id))
+Hibernate: create table users (id bigint generated by default as identity, created_at timestamp, email varchar(100) not null, full_name varchar(100) not null, nickname varchar(50) not null, password varchar(255) not null, primary key (id))
+Hibernate: alter table acceleration add constraint FK6bucejmky2hqhcmj6vexf9tkp foreign key (challenge_id) references challenge
+Hibernate: alter table candidate add constraint FKc23nbdgfce6rnt56ofltvxu71 foreign key (user_id) references users
+Hibernate: alter table candidate add constraint FK5859evebv1forwxno1dj2x73m foreign key (company_id) references company
+Hibernate: alter table candidate add constraint FK9wdl31wkstau7n5wckm5prkdg foreign key (acceleration_id) references acceleration
+Hibernate: alter table submission add constraint FKioe5xddu66v3aktrkyxj4vfx9 foreign key (user_id) references users
+Hibernate: alter table submission add constraint FK5w6mihcq53t1j5x2cmgy640cm foreign key (challenge_id) references challenge
+2021-06-30 18:48:21.975  INFO 80800 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@6e6c8854'
+2021-06-30 18:48:21.980  INFO 80800 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-30 18:48:23.626  INFO 80800 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/user'], []
+2021-06-30 18:48:23.797  INFO 80800 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2569afda, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c93e69, org.springframework.security.web.header.HeaderWriterFilter@7fb02606, org.springframework.security.web.authentication.logout.LogoutFilter@38834000, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1b984ba5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2526d5f9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78c23ade, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28dd8786, org.springframework.security.web.session.SessionManagementFilter@79486f38, org.springframework.security.web.access.ExceptionTranslationFilter@410f1452, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@f7b7720]
+2021-06-30 18:48:23.848  INFO 80800 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@17d45cfb, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1fb00a6d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b063695, org.springframework.security.web.header.HeaderWriterFilter@75312c94, org.springframework.security.web.authentication.logout.LogoutFilter@4cd9ee2c, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@3b11deb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43edd2ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fc4038f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c65ec63, org.springframework.security.web.session.SessionManagementFilter@140cfc5f, org.springframework.security.web.access.ExceptionTranslationFilter@3cd28235, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2643ed03]
+2021-06-30 18:48:23.905  INFO 80800 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b6b99c5, org.springframework.security.web.context.SecurityContextPersistenceFilter@1ae23815, org.springframework.security.web.header.HeaderWriterFilter@7da1ef46, org.springframework.security.web.csrf.CsrfFilter@7bbe532b, org.springframework.security.web.authentication.logout.LogoutFilter@4987142d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6d6d81c, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1b868ef0, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2e1c8027, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@17c72ffa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63ccb1b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1165a952, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@72d7afff, org.springframework.security.web.session.SessionManagementFilter@740fccd2, org.springframework.security.web.access.ExceptionTranslationFilter@abe7d36, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67376bae]
+2021-06-30 18:48:24.821  INFO 80800 --- [           main] a.OAuth2AuthorizationServerConfiguration : Initialized OAuth2 Client
+
+security.oauth2.client.client-id = client_id
+security.oauth2.client.client-secret = ****
+
+
+2021-06-30 18:48:26.116  INFO 80800 --- [           main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-06-30 18:48:27.033  INFO 80800 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-30 18:48:27.230  WARN 80800 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-30 18:48:29.080  INFO 80800 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-06-30 18:48:29.310  INFO 80800 --- [           main] com.challenge.suite.Oauth2Test           : Started Oauth2Test in 16.082 seconds (JVM running for 17.586)
+2021-06-30 18:48:29.584  INFO 80800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-06-30 18:48:29.585  INFO 80800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-06-30 18:48:29.657  INFO 80800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 71 ms
+2021-06-30 18:48:29.792  INFO 80800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-06-30 18:48:29.794  INFO 80800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-06-30 18:48:29.803  INFO 80800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 7 ms
+2021-06-30 18:48:30.026  INFO 80800 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-06-30 18:48:30.027  INFO 80800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-06-30 18:48:30.044  INFO 80800 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 17 ms
+2021-06-30 18:48:30.182 ERROR 80800 --- [           main] o.s.s.o.provider.endpoint.TokenEndpoint  : Handling error: InternalAuthenticationServiceException, null
+
+org.springframework.security.authentication.InternalAuthenticationServiceException: null
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:123) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.dao.AbstractUserDetailsAuthenticationProvider.authenticate(AbstractUserDetailsAuthenticationProvider.java:144) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:175) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.oauth2.provider.password.ResourceOwnerPasswordTokenGranter.getOAuth2Authentication(ResourceOwnerPasswordTokenGranter.java:71) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.getAccessToken(AbstractTokenGranter.java:72) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.token.AbstractTokenGranter.grant(AbstractTokenGranter.java:67) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.CompositeTokenGranter.grant(CompositeTokenGranter.java:38) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.config.annotation.web.configurers.AuthorizationServerEndpointsConfigurer$4.grant(AuthorizationServerEndpointsConfigurer.java:583) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at org.springframework.security.oauth2.provider.endpoint.TokenEndpoint.postAccessToken(TokenEndpoint.java:132) ~[spring-security-oauth2-2.3.5.RELEASE.jar:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882) ~[spring-webmvc-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.web.servlet.TestDispatcherServlet.service(TestDispatcherServlet.java:71) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.21.jar:9.0.21]
+	at org.springframework.mock.web.MockFilterChain$ServletFilterProxy.doFilter(MockFilterChain.java:166) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:133) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:127) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:91) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:170) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:74) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109) ~[spring-web-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	at org.springframework.mock.web.MockFilterChain.doFilter(MockFilterChain.java:133) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.web.servlet.MockMvc.perform(MockMvc.java:182) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at com.challenge.suite.Oauth2Test.obtainAccessToken(Oauth2Test.java:99) ~[test-classes/:na]
+	at com.challenge.suite.Oauth2Test.whenLoggedInShowAllCompanys(Oauth2Test.java:81) ~[test-classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) ~[junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190) ~[spring-test-5.1.8.RELEASE.jar:5.1.8.RELEASE]
+	at org.junit.runners.Suite.runChild(Suite.java:128) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.Suite.runChild(Suite.java:27) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) ~[junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) ~[junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159) ~[surefire-junit4-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126) ~[surefire-booter-2.22.2.jar:2.22.2]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418) ~[surefire-booter-2.22.2.jar:2.22.2]
+Caused by: java.lang.NullPointerException: null
+	at com.challenge.service.impl.UserService.loadUserByUsername(UserService.java:40) ~[classes/:na]
+	at org.springframework.security.authentication.dao.DaoAuthenticationProvider.retrieveUser(DaoAuthenticationProvider.java:108) ~[spring-security-core-5.1.5.RELEASE.jar:5.1.5.RELEASE]
+	... 103 common frames omitted
+
+[ERROR] Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 17.969 s <<< FAILURE! - in com.challenge.suite.ChallengeTestSuite
+[ERROR] whenNotLoggedInShowAllUsers(com.challenge.suite.Oauth2Test)  Time elapsed: 0.413 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at com.challenge.suite.Oauth2Test.whenNotLoggedInShowAllUsers(Oauth2Test.java:61)
+Caused by: java.lang.NullPointerException
+	at com.challenge.suite.Oauth2Test.whenNotLoggedInShowAllUsers(Oauth2Test.java:61)
+
+[ERROR] whenLoggedInShowAllCompanys(com.challenge.suite.Oauth2Test)  Time elapsed: 0.303 s  <<< FAILURE!
+java.lang.AssertionError: Status expected:<200> but was:<401>
+	at com.challenge.suite.Oauth2Test.obtainAccessToken(Oauth2Test.java:103)
+	at com.challenge.suite.Oauth2Test.whenLoggedInShowAllCompanys(Oauth2Test.java:81)
+
+2021-06-30 18:48:30.421  INFO 80800 --- [       Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-06-30 18:48:30.450  INFO 80800 --- [       Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-06-30 18:48:30.457  INFO 80800 --- [       Thread-1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+Hibernate: drop table acceleration if exists
+Hibernate: drop table candidate if exists
+Hibernate: drop table challenge if exists
+Hibernate: drop table company if exists
+Hibernate: drop table submission if exists
+Hibernate: drop table users if exists
+2021-06-30 18:48:30.499  INFO 80800 --- [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-06-30 18:48:30.512  INFO 80800 --- [       Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   Oauth2Test.whenLoggedInShowAllCompanys:81->obtainAccessToken:103 Status expected:<200> but was:<401>
+[ERROR] Errors: 
+[ERROR]   Oauth2Test.whenNotLoggedInShowAllUsers:61 » NestedServlet Request processing f...
+[INFO] 
+[ERROR] Tests run: 3, Failures: 1, Errors: 1, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  25.368 s
+[INFO] Finished at: 2021-06-30T18:48:30-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.22.2:test (default-test) on project spring-http: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /home/danieleperse/codenation/java-12/target/surefire-reports for the individual test results.
+[ERROR] Please refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+Preparando code review...   2% |█                                       |  [0s:0s]                                                                                  Preparando code review...   5% |██                                      |  [1s:20s]                                                                                   Preparando code review...   7% |███                                     |  [1s:19s]                                                                                   Preparando code review...  10% |████                                    |  [2s:18s]                                                                                   Preparando code review...  12% |█████                                   |  [2s:17s]                                                                                   Preparando code review...  15% |██████                                  |  [2s:16s]                                                                                   Preparando code review...  17% |███████                                 |  [3s:15s]                                                                                   Preparando code review...  20% |████████                                |  [3s:15s]                                                                                   Preparando code review...  22% |█████████                               |  [4s:14s]                                                                                   Preparando code review...  25% |██████████                              |  [4s:14s]                                                                                   Preparando code review...  27% |███████████                             |  [5s:13s]                                                                                   Preparando code review...  30% |████████████                            |  [5s:13s]                                                                                   Preparando code review...  32% |█████████████                           |  [6s:12s]                                                                                   Preparando code review...  35% |██████████████                          |  [6s:12s]                                                                                   Preparando code review...  37% |███████████████                         |  [6s:11s]                                                                                   Preparando code review...  40% |████████████████                        |  [7s:11s]                                                                                   Preparando code review...  42% |█████████████████                       |  [7s:10s]                                                                                   Preparando code review...  45% |██████████████████                      |  [8s:10s]                                                                                   Preparando code review...  47% |███████████████████                     |  [8s:9s]                                                                                   Preparando code review...  50% |████████████████████                    |  [9s:9s]                                                                                   Preparando code review...  52% |█████████████████████                   |  [9s:8s]                                                                                   Preparando code review...  55% |██████████████████████                  |  [10s:8s]                                                                                   Preparando code review...  57% |███████████████████████                 |  [10s:7s]                                                                                   Preparando code review...  60% |████████████████████████                |  [11s:7s]                                                                                   Preparando code review...  62% |█████████████████████████               |  [11s:6s]                                                                                   Preparando code review...  65% |██████████████████████████              |  [12s:6s]                                                                                   Preparando code review...  67% |███████████████████████████             |  [12s:6s]                                                                                   Preparando code review...  70% |████████████████████████████            |  [13s:5s]                                                                                   Preparando code review...  72% |█████████████████████████████           |  [13s:5s]                                                                                   Preparando code review...  75% |██████████████████████████████          |  [14s:4s]                                                                                   Preparando code review...  77% |███████████████████████████████         |  [14s:4s]                                                                                   Preparando code review...  80% |████████████████████████████████        |  [14s:3s]                                                                                   Preparando code review...  82% |█████████████████████████████████       |  [15s:3s]                                                                                   Preparando code review...  85% |██████████████████████████████████      |  [15s:2s]                                                                                   Preparando code review...  87% |███████████████████████████████████     |  [16s:2s]                                                                                   Preparando code review...  90% |████████████████████████████████████    |  [16s:1s]                                                                                   Preparando code review...  92% |█████████████████████████████████████   |  [17s:1s]                                                                                   Preparando code review...  95% |██████████████████████████████████████  |  [17s:0s]                                                                                   Preparando code review...  97% |███████████████████████████████████████ |  [18s:0s]                                                                                   Preparando code review... 100% |████████████████████████████████████████|  [18s:0s]
+Códigos submetidos com sucesso! 
+
+Sua nota é: 33.000000
+
+Você está no caminho! Não desista. Algumas dicas que podem ajudar:
+
+- Analise o resultado do comando acima, para procurar pistas que podem ajudar na solução do problema.
+- Revise seu código para verificar se esqueceu de algo
+- Revise o conteúdo do README.md para verificar se cumpriu tudo que o desafio pede
+- Você pode compartilhar seu código com outros desenvolvedores para pedir ajuda e uma revisão de código usando o link especial: https://r.codenation.dev/u/NI5wPhz7R
+- Você pode pedir ajuda no forum da Code:Nation:  https://forum.codenation.com.br
