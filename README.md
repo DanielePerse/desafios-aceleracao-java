@@ -23,3 +23,5 @@ Nesse repositório estão armazenados todos os desafios efetuados durante a acel
 :heavy_check_mark: java-14: Calcular Media, Moda e Mediana;
 
 :heavy_check_mark: java-15: Order Service (sistema de gerenciamento de pedidos);
+
+:heavy_check_mark: java-16: Refatorando Formas de Pagamento;
